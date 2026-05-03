@@ -1,6 +1,6 @@
 # C# Publisher-Subscriber Model (News Agency)
 
-## Problem Statement
+# Problem Statement
 
 This project demonstrates the Publisher-Subscriber (Observer) design pattern using C#.
 A News Agency publishes news on different topics, and readers subscribe to receive updates based on their interests.
@@ -39,7 +39,7 @@ The system ensures loose coupling between the publisher and subscribers using de
 * Subscribes to the publisher
 * Receives notifications based on interested topic
 
-### Event Mechanism
+## Event Mechanism
 
 * `OnNewsPublished` event connects publisher and subscribers
 * Automatically notifies all subscribed users
